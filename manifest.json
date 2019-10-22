@@ -2,12 +2,12 @@
   "artifactName": "apigw-caching-settings-check",
   "artifactType": "AWS::Config::ConfigRule",
   "artifactVersion": "1.0",
-  "artifactDescription": "Test artifact",
+  "artifactDescription": "Test rule",
   "sourceDirectories": ["/"],
   "metadata": {
     "runtime": "python2.7",
-    "handler": "TEST.py",
-    "handlerPath": "/TEST.py",
+    "handler": "test_rule.py",
+    "handlerPath": "/test_rule.py",
     "sourcePath": "/"
   }
 }
