@@ -2,12 +2,12 @@
   "artifactName": "apigw-caching-settings-check",
   "artifactType": "AWS::Config::ConfigRule",
   "artifactVersion": "1.0",
-  "artifactDescription": "Checks whether resources are compliant with certain caching settings.",
-  "sourceDirectories": ["requiredTags/"],
+  "artifactDescription": "Test artifact",
+  "sourceDirectories": ["/"],
   "metadata": {
     "runtime": "python2.7",
-    "handler": "APIGW_CACHING_SETTINGS.py",
-    "handlerPath": "/APIGW_CACHING_SETTINGS.py",
+    "handler": "TEST.py",
+    "handlerPath": "/TEST.py",
     "sourcePath": "/"
   }
 }
