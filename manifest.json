@@ -5,7 +5,7 @@
   "artifactDescription": "A penguin test.",
   "sourceDirectories": ["test/src"],
   "metadata": {
-    "sourcePath": "test/src",
+    "sourcePath": "src",
     "handler": "com.amazonaws.test.Test",
     "handlerPath": "com/amazonaws/test/Test",
     "runtime": "JAVA8"
