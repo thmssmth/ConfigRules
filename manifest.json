@@ -1,7 +1,7 @@
 {
   "artifactName": "penguin-test-artifact",
   "artifactType": "AWS::Config::ConfigRule",
-  "artifactVersion": "1.0",
+  "artifactVersion": "1.0.0",
   "artifactDescription": "A penguin test.",
   "sourceDirectories": ["test/src"],
   "metadata": {
