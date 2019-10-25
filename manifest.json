@@ -1,13 +1,13 @@
 {
-  "artifactName": "apigw-caching-settings-check",
+  "artifactName": "penguin-test-artifact",
   "artifactType": "AWS::Config::ConfigRule",
   "artifactVersion": "1.0",
-  "artifactDescription": "Test rule",
-  "sourceDirectories": ["/"],
+  "artifactDescription": "A penguin test.",
+  "sourceDirectories": ["test/src"],
   "metadata": {
-    "runtime": "python2.7",
-    "handler": "test_rule.py",
-    "handlerPath": "/test_rule.py",
-    "sourcePath": "/"
+    "sourcePath": "test/src",
+    "handler": "com.amazonaws.test.Test",
+    "handlerPath": "com/amazonaws/test/Test",
+    "runtime": "JAVA8"
   }
 }
